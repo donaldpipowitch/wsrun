@@ -75,7 +75,7 @@ command:
 `yarn wsrun -r --stages build -p tsconfig.alternative.json` - build all packages in stages with
 and pass an alternative tsconfig to the build script
 
-When `--skip-missing` is not used, you can pass a command that doesn't exist in the scripts field:
+When `--exclude-missing` is not used, you can pass a command that doesn't exist in the scripts field:
 
 `yarn wsrun -r --stages tsc -p tsconfig.alternative.json` - run tsc for all packages with an alternative tsconfig
 
